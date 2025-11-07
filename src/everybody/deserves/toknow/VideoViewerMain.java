@@ -26,7 +26,14 @@ public class VideoViewerMain extends JFrame  {
         for(int k = 0; k < sceneLengths.length(); k++)
         {
             this.setContentPane(sceneList.get(k));
-            
+            try
+            {
+                Thread.sleep(100);
+            }
+            catch(InterruptedException intExc)
+            {
+                System.out.println("Exception while waiting for thread: " + intExc.getMessage());
+            }
         }
     }
 }
