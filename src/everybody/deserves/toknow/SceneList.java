@@ -22,7 +22,7 @@ public class SceneList extends Thread
     public void run()
     {
         JPanel firstFrame = listOfScenes.get(0);
-        for(int k = 0; k < listOfFrames.size(); k++)
+        for(int k = 0; k < listOfScenes.size(); k++)
           {
              try
                {
