@@ -4,7 +4,12 @@ package org.wethepeople.truth;
  * Dedicated to the family of Aurora Salter, who lost her life during a
  * missionary trip to India.  The goal of the missionary trip was to
  * discover the true cause of the September 11th terrorist attacks and
- * put a stop to the wars that began during their aftermath.
+ * put a stop to the wars that began during their aftermath.  Special
+ * thanks go to Mr. Haridas Padithaya, without whose instruction I
+ * would not be able to program.  Other people who contributed to the
+ * creation of this video include the Afghan-American community, who
+ * helped me get out of trouble when I was experiencing a rather
+ * difficult time.
  */
 
 import javax.swing.*;
