@@ -14,8 +14,7 @@ package org.wethepeople.truth;
 
 import javax.swing.*;
 import java.awt.*;
-
-
+import everybody.deserves.toknow.*;
 
 public class VideoFileMain  {
   public static void main(String[] args)  {
@@ -23,7 +22,9 @@ public class VideoFileMain  {
     frame.setSize(750, 1000);
     frame.setLocation(18, 24);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setContentPane(new Scene0Panel());
+    SceneList sceneList = new SceneList();
+    sceneList.setVideoMain(this);
     frame.setVisible(true);
+    sceneList.run();
   }
 }
