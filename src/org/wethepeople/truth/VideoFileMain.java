@@ -23,7 +23,8 @@ public class VideoFileMain  {
     frame.setLocation(18, 24);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     SceneList sceneList = new SceneList();
-    sceneList.setVideoMain(this);
+    sceneList.setVideoFileMain(this);
+    sceneList.generateScenePanels();
     frame.setVisible(true);
     sceneList.run();
   }
