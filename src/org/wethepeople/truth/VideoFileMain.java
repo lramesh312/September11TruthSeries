@@ -9,7 +9,7 @@ package org.wethepeople.truth;
  * would not be able to program.  Other people who contributed to the
  * creation of this video include the Afghan-American community, who
  * helped me get out of trouble when I was experiencing a rather
- * difficult time.
+ * difficult time, and Meng-Ai An.
  */
 
 import javax.swing.*;
